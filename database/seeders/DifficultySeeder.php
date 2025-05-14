@@ -16,7 +16,7 @@ class DifficultySeeder extends Seeder
         $difficulties = ["easy", "medium", "hard", "expert", "master", "extreme"];
         foreach ($difficulties as $difficulty) {
             Difficulty::create([
-                'difficulty' => $difficulty,
+                'name' => $difficulty,
             ]);
         }
     }

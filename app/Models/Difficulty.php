@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Difficulty extends Model
 {
     protected $fillable = [
-        'difficulty',
+        'name',
     ];
     function sudokus()
     {
